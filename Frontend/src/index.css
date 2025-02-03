@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .flex-1::-webkit-scrollbar {
+    display: none;
+} */
+.flex-1 {
+    -ms-overflow-style: none; /* Hides scrollbar in IE */
+    scrollbar-width: none; /* Hides scrollbar in Firefox */
+  }
+body{
+    background-color: slategrey;
+}
